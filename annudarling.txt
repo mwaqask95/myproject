@@ -2,7 +2,7 @@
                        // String name="";
                         *//*for(int i=0; i<licences.size()-1; i++)
                         {
-
+q	wqerwe
                             JsonObject temp = (JsonObject) licences.get(i);
                             name= temp.get("name").toString();
                             if(e==null)
