@@ -1,0 +1,19 @@
+// JsonArray licences = data.getAsJsonArray("licenses");
+                       // String name="";
+                        *//*for(int i=0; i<licences.size()-1; i++)
+                        {
+
+                            JsonObject temp = (JsonObject) licences.get(i);
+                            name= temp.get("name").toString();
+                            if(e==null)
+                            {
+                                pBar.setVisibility(View.INVISIBLE);
+                                Toast.makeText(MainActivity.this, name + " \n" , Toast.LENGTH_SHORT).show();
+                            }
+                            else
+                            {
+                                Toast.makeText(MainActivity.this, e.getMessage(), Toast.LENGTH_SHORT).show();
+                            }
+                        *//*    //Toast.makeText(MainActivity.this, name, Toast.LENGTH_SHORT).show();
+                        //}
+                       

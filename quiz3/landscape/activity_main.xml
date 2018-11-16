@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Spinner
+        android:id="@+id/spinnerCountry"
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content"
+        ></Spinner>
+    <EditText
+        android:id="@+id/resText"
+        android:layout_below="@id/spinnerCountry"
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content"
+        android:hint="restaurant Name"/>
+    <Button
+        android:id="@+id/btnFind"
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/resText"
+        android:layout_height="wrap_content"
+        android:onClick="find"
+        android:hint="Find"/>
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/btnFind"
+        android:paddingTop="15dp"
+        android:onClick="search"
+        android:layout_height="wrap_content"
+        android:hint="Search history"/>
+</RelativeLayout>
